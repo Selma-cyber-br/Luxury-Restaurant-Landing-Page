@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Aura - Modern Fine Dining</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">L'Aura</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#reserve" class="btn-nav">Book Table</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Crafting Culinary <span class="highlight">Masterpieces</span></h1>
+            <p>Experience an unforgettable journey of taste, elegance, and modern gastronomy.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn-primary">View Menu</a>
+                <a href="#contact" class="btn-secondary">Find Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Signature Menu</h2>
+                <p>A curated selection of dishes prepared with seasonal, locally-sourced ingredients.</p>
+            </div>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Dry Aged Ribeye">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Dry Aged Ribeye</h3>
+                            <span class="price">$48</span>
+                        </div>
+                        <p>40-day dry-aged beef, truffle butter, roasted garlic, rosemary sprig.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80" alt="Salmon Tartare">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Pan-Seared Salmon</h3>
+                            <span class="price">$36</span>
+                        </div>
+                        <p>Wild-caught salmon, asparagus spears, saffron infused lemon cream sauce.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80" alt="Truffle Pasta">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Truffle Fettuccine</h3>
+                            <span class="price">$29</span>
+                        </div>
+                        <p>Handmade pasta, wild forest mushrooms, shaved black truffle, parmigiano reggiano.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=600&q=80" alt="Dessert">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Deconstructed Mille-Feuille</h3>
+                            <span class="price">$16</span>
+                        </div>
+                        <p>Caramelized puff pastry, Madagascar vanilla bean pastry cream, fresh berries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit or Connect</h2>
+                <p>We would love to host you. Reach out for reservations or private event inquiries.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Gastronomy Lane, New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Tue - Sun: 5:00 PM - 11:00 PM<br>Monday: Closed</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Reservations</h4>
+                            <p>+1 (555) 839-2001<br>reservations@laurarestaurant.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="restaurantForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Your Message or Special Request" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 L'Aura Restaurant. Crafted for premium experiences.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
